@@ -12,7 +12,7 @@ const UserSchema = new Schema({
         unique: true
     },
     password: {
-        type: Int16Array,
+        type: String,
         required: true,
     },
     expenses: [
